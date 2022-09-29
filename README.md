@@ -12,7 +12,7 @@
 - colore_interni        -> VARCHAR(20)      -> NULLABLE;
 - num_possessori        -> TINYINT          -> DEFAULT(1);
 - data_arrivo           -> DATE             -> DEFAULT(TODAY);
-- prezzo                -> MEDIUM_INT       -> NOT_NULL;
+- prezzo                -> FLOAT(8,2)       -> NOT_NULL;
 
 ##### Nome Tabella: equipaggiamento di serie vettura
 - vin                   -> VARCHAR(17)      -> PRIMARY_KEY: UNIQUE, NOT_NULL
