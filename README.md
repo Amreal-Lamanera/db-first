@@ -28,7 +28,7 @@
 - pacchetti_luce        -> TEXT             -> NULLABLE;
 - sedili                -> TEXT             -> NOT_NULL;
 - sicurezza             -> TEXT             -> NOT_NULL;
-- sistemi di assistenza -> TEXT             -> NULLABLE;
+- sistemi_di_assistenza -> TEXT             -> NULLABLE;
 
 ##### Nome Tabella: equipaggiamento optional vettura
 - vin                   -> VARCHAR(17)      -> PRIMARY_KEY: UNIQUE, NOT_NULL
@@ -44,4 +44,4 @@
 - pacchetti_luce        -> TEXT             -> NULLABLE;
 - sedili                -> TEXT             -> NULLABLE;
 - sicurezza             -> TEXT             -> NULLABLE;
-- sistemi di assistenza -> TEXT             -> NULLABLE;
+- sistemi_di_assistenza -> TEXT             -> NULLABLE;
