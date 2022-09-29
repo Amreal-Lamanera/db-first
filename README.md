@@ -2,7 +2,8 @@
 
 ##### Nome Tabella: catalogo auto usate
 
-- vin                   -> VARCHAR(17)      -> PRIMARY_KEY: UNIQUE, NOT_NULL
+- id                    -> BIGINT           -> PRIMARY_KEY: UNIQUE, NOT_NULL, AUTO_INCREMENT;
+- vin                   -> VARCHAR(17)      -> UNIQUE, NOT_NULL;
 - targa                 -> VARCHAR(7)       -> UNIQUE, NOT_NULL;
 - marca                 -> VARCHAR(255)     -> NOT_NULL;
 - modello               -> VARCHAR(255)     -> NOT_NULL;
@@ -11,7 +12,7 @@
 - colore_carrozzeria    -> VARCHAR(20)      -> NULLABLE;
 - colore_interni        -> VARCHAR(20)      -> NULLABLE;
 - num_possessori        -> TINYINT          -> DEFAULT(1);
-- data_arrivo           -> DATE             -> DEFAULT(TODAY);
+- data_arrivo           -> DATE             -> NULLABLE;
 - prezzo                -> FLOAT(8,2)       -> NOT_NULL;
 
 ##### Nome Tabella: equipaggiamento di serie vettura
