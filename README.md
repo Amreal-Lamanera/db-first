@@ -1,4 +1,4 @@
-# Dobbiamo definire la struttura di una tabella che contenga dei libri.
+# Dobbiamo definire la struttura di una tabella per memorizzare i dati delle auto usate messe in vendita da un concessionario.
 
 ##### Nome Tabella: catalogo auto usate
 
